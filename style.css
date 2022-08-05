@@ -1,0 +1,64 @@
+:root {
+    --clr-dk: #141414;
+}
+
+body {
+    color: white;
+    background-color: var(--clr-dk);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+
+.navbar {
+    font-size: 12px;
+}
+.kids{
+    color: #9DA09B;
+    border-color: transparent;
+    background-color: drk;
+}
+.icon{
+    color: gray;
+}
+.footer{
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.links{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: flex-start;
+
+
+}
+/* link2{
+    width: 33%;
+} */
+
+.links a{
+    color: #9DA09B;
+    font-weight: 50;
+    font-size: 12px;
+    /* flex-wrap: wrap; */
+    width: 20%;
+    padding: 0;
+    /* text-decoration: none; */
+
+}
+
+
+
+.section-title a {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--clr-prime-link);
+}
+
+.section-title a:hover {
+    color: #90dffe;
+    text-decoration: none;
+}
+
